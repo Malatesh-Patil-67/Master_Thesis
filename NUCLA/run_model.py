@@ -81,8 +81,6 @@ train_labels_encoded = label_encoder.transform(train_dataset.labels)
 # Convert the encoded labels to tensors
 train_labels_tensor = torch.tensor(train_labels_encoded, dtype=torch.long).to(device)
 
-#print("Hi")
-#print(num_frame)
 
 train_accuracies = []
 train_losses = []
@@ -103,7 +101,6 @@ true_lab=[]
 
 # Training loop
 for epoch in range(num_epochs):
-    #print(epoch)
     model.train()  # Set the model to training mode
     train_loss = 0.0
     train_correct = 0
