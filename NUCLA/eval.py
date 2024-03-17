@@ -1,6 +1,6 @@
 # metrics table
 
-average_accuracy = round(np.mean(accuracy), 4)
+average_accuracy = round(np.mean(accuracies), 4)
 average_precision = round(np.mean(precision), 4)
 average_recall = round(np.mean(recall), 4)
 average_f1 = round(np.mean(f1), 4)
