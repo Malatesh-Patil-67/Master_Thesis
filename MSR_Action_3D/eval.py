@@ -1,3 +1,9 @@
+# Calculate precision, recall, and F1 score
+precision = precision_score(true_labels, predictions, average=None)
+recall = recall_score(true_labels, predictions, average=None)
+f1 = f1_score(true_labels, predictions, average=None)
+accuracies = test_accuracies
+
 average_accuracy = round(np.mean(accuracies), 4)
 average_precision = round(np.mean(precision), 4)
 average_recall = round(np.mean(recall), 4)
