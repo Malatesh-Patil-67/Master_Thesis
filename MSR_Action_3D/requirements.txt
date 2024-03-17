@@ -1,0 +1,10 @@
+einops
+torch
+torch_dct
+timm
+scikit-learn
+matplotlib
+seaborn
+scipy
+numpy
+tabulate
