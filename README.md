@@ -5,4 +5,4 @@ This repo has all the codes related to my Master's Thesis.
 
 This thesis aims to leverage the PoseFormerV2 model architecture [(https://github.com/QitaoZhao/PoseFormerV2)] for this task. We aim to conduct extensive experiments on diverse datasets to evaluate the model’s performance. 
 
-The goal is to assess its effectiveness and compare results with state-of-the-art action recognition models, thereby advancing our understanding of 3D Pose-based action recognition.
+The model is evaluated on two benchmark datasets, N-UCLA and MSR Ac- tion3D, which are known for their complexity in action recognition challenges. Additionally, we use t-SNE visualization to analyze the learned embeddings, providing insights into the model’s ability to effectively differentiate between diverse actions.
