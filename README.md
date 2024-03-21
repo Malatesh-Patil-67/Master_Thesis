@@ -1,5 +1,6 @@
 # Master_Thesis
-Title: 3d Pose based Action recognition
+Title: 3d Pose based Action recognition.
+
 This repo has all the code related to my Master's Thesis.
 
 3D Pose-based action recognition has emerged as a critical field in computer vision. It involves the identification of human actions from three-dimensional skeletal motion data.
